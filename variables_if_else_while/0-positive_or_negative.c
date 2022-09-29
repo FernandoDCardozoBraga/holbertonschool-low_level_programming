@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Retour: always 0
+ * Description: Assign a random number to the variable n.
+ * Retour: Always 0 (Success)
  */
 int main(void)
 {

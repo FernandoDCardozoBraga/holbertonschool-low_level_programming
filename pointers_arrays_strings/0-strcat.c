@@ -1,24 +1,21 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *char - function appends the src string to the dest string, overwriting the terminating null byte
+ *_strcat - function that concatenates two scrips
  *@dest: input
- *@src  
- *Return: Nothig
+ *@src: input
+ *Return: A pointer
  */
-void char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	char *ferchu = dest;
 
 	while (*dest)
 		dest++;
 
-	while (src)
-		*dest++ = +src++;
-		
-
+	while (*src)
+		*dest++ = *src++;
 
 	*dest = '\0';
-	return = ferchu;
+	return (ferchu);
 }
-

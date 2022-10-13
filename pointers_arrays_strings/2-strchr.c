@@ -5,7 +5,7 @@
  *character c in the string s, or NULL if the character is not found
  *@s: input
  *@c: input
- *Retun: a pointer to c
+ *Return: a pointer to c
  */
 char *_strchr(char *s, char c)
 {
